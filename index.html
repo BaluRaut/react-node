@@ -4,7 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Skills Roadmap to 2028 — Node/React → AI + Data</title>
-<meta name="description" content="A What / Why / How roadmap for a senior Node.js + React engineer to stay in demand through 2028: AI application engineering, the modern data layer, and staff-level architecture." />
+<meta name="description" content="A What / Why / How roadmap for a senior Node.js + React engineer to stay in demand through 2028." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%236d5efc'/%3E%3Cstop%20offset='1'%20stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='url(%23g)'/%3E%3Cpath%20d='M13%2041%20L27%2027%20L37%2035%20L51%2019'%20fill='none'%20stroke='%23fff'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3Cpath%20d='M43%2019%20L51%2019%20L51%2027'%20fill='none'%20stroke='%23fff'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E" />
+<!-- Generated from skills-2028-roadmap.md by build.js — edit the .md, not this file. -->
 <style>
   :root{
     --bg:#f7f8fb; --bg-soft:#ffffff; --card:#ffffff; --ink:#1a1d29; --ink-soft:#4a4f60;
@@ -34,8 +36,6 @@
   a{color:var(--accent-ink); text-decoration:none}
   a:hover{text-decoration:underline}
   .wrap{max-width:920px; margin:0 auto; padding:0 22px}
-
-  /* Hero */
   .hero{
     position:relative; overflow:hidden;
     background:
@@ -56,23 +56,17 @@
     font-size:clamp(2.1rem,5.2vw,3.4rem); line-height:1.08; margin:20px 0 14px; letter-spacing:-.02em;
     background:linear-gradient(120deg,var(--ink),var(--accent-ink)); -webkit-background-clip:text; background-clip:text; color:transparent;
   }
-  .lede{font-size:1.12rem; color:var(--ink-soft); max-width:640px; margin:0 0 8px}
-  .profile{
-    display:inline-flex; flex-wrap:wrap; gap:8px; margin-top:22px; font-size:.92rem; color:var(--muted);
-  }
+  .lede{font-size:1.12rem; color:var(--ink-soft); max-width:660px; margin:0 0 8px}
+  .profile{display:inline-flex; flex-wrap:wrap; gap:8px; margin-top:22px; font-size:.92rem; color:var(--muted)}
   .bets{display:flex; flex-wrap:wrap; gap:10px; margin-top:28px}
   .bet{
     display:flex; align-items:center; gap:10px; background:var(--card); border:1px solid var(--line);
     padding:10px 15px; border-radius:14px; box-shadow:var(--shadow); font-weight:600; font-size:.94rem;
   }
   .bet b{color:var(--accent-ink); font-size:1.05rem}
-
-  /* Legend */
   .legend{display:flex; flex-wrap:wrap; gap:18px; margin:28px auto 0; max-width:920px; padding:0 22px}
   .legend .lg{display:flex; align-items:center; gap:9px; font-size:.9rem; color:var(--ink-soft)}
   .dot{width:11px; height:11px; border-radius:50%}
-
-  /* Sections */
   section{padding:44px 0 8px}
   .frame{
     background:var(--bg-soft); border:1px solid var(--line); border-radius:18px;
@@ -86,8 +80,6 @@
   }
   h2{font-size:clamp(1.4rem,3.2vw,1.9rem); margin:0; letter-spacing:-.01em; line-height:1.15}
   .sec-sub{color:var(--muted); margin:6px 0 4px 52px; font-size:.98rem}
-
-  /* Topic cards */
   .topic{
     background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px 22px;
     margin:16px 0; box-shadow:var(--shadow); transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
@@ -97,17 +89,12 @@
   .topic h3 .id{color:var(--accent-ink); font-variant-numeric:tabular-nums; margin-right:8px; font-weight:800}
   .wwh{display:grid; gap:10px; margin-top:14px}
   .row{display:grid; grid-template-columns:76px 1fr; gap:14px; align-items:start}
-  .tag{
-    font-size:.72rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase;
-    padding:4px 0; text-align:center; border-radius:8px;
-  }
+  .tag{font-size:.72rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase; padding:4px 0; text-align:center; border-radius:8px}
   .tag.what{color:var(--what); background:var(--what-bg)}
   .tag.why{color:var(--why); background:var(--why-bg)}
   .tag.how{color:var(--how); background:var(--how-bg)}
   .row p{margin:1px 0; color:var(--ink-soft)}
   .row p b{color:var(--ink)}
-
-  /* Timeline */
   .timeline{margin:8px 0; padding:0; list-style:none}
   .tl{position:relative; padding:0 0 22px 44px; border-left:2px solid var(--line); margin-left:14px}
   .tl:last-child{border-left-color:transparent; padding-bottom:0}
@@ -117,8 +104,6 @@
   }
   .tl .when{font-weight:800; color:var(--accent-ink); font-size:.86rem; letter-spacing:.02em; text-transform:uppercase}
   .tl p{margin:6px 0 0; color:var(--ink-soft)}
-
-  /* Summary card */
   .summary{
     background:linear-gradient(135deg, color-mix(in srgb,var(--accent) 14%,var(--card)), var(--card));
     border:1px solid color-mix(in srgb,var(--accent) 34%,var(--line));
@@ -126,21 +111,11 @@
   }
   .summary .k{font-size:.78rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--accent-ink)}
   .summary p{font-size:1.18rem; line-height:1.55; margin:8px 0 0; color:var(--ink)}
-
   em{color:var(--ink); font-style:italic}
-  code{
-    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.9em;
-    background:var(--line-soft); padding:1px 6px; border-radius:6px; color:var(--accent-ink);
-  }
-
-  footer{
-    border-top:1px solid var(--line); margin-top:40px; padding:28px 0 46px; color:var(--muted); font-size:.9rem; text-align:center;
-  }
-  @media (max-width:560px){
-    .row{grid-template-columns:1fr; gap:4px}
-    .tag{width:64px}
-    .sec-sub{margin-left:0}
-  }
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.9em; background:var(--line-soft); padding:1px 6px; border-radius:6px; color:var(--accent-ink)}
+  footer{border-top:1px solid var(--line); margin-top:40px; padding:28px 0 46px; color:var(--muted); font-size:.9rem; text-align:center}
+  footer .upd{display:inline-block; margin-top:6px; font-size:.82rem}
+  @media (max-width:560px){ .row{grid-template-columns:1fr; gap:4px} .tag{width:64px} .sec-sub{margin-left:0} }
 </style>
 </head>
 <body>
@@ -150,7 +125,7 @@
     <span class="eyebrow">◆ Career Roadmap · 2026 → 2028</span>
     <h1>Staying in demand through 2028</h1>
     <p class="lede">A <b>What / Why / How</b> plan to turn 10 years of Node.js + React into a moat that a junior-plus-AI can't replicate.</p>
-    <div class="profile">Profile: 10 yrs Node.js &amp; React · Gap: not database-heavy apps</div>
+    <div class="profile">Profile: 10 years experience in Node.js and React. Gap: not database-heavy apps.</div>
     <div class="bets">
       <div class="bet"><b>1</b> AI Application Engineering</div>
       <div class="bet"><b>2</b> The Modern Data Layer</div>
@@ -170,19 +145,18 @@
     <div class="frame">
       <h2 style="margin-bottom:10px">The honest framing</h2>
       <p style="color:var(--ink-soft);margin:0 0 12px">Node + React aren't going anywhere by 2028 — but the <em>baseline</em> is rising. "Can build a React SPA with a Node API" is becoming table stakes that a mid-level dev plus an AI assistant can do. Your 10 years of experience needs to buy you something a junior-plus-AI can't replicate. That's where you should aim.</p>
-      <p style="color:var(--ink-soft);margin:0">The three big bets, in priority order: <b>AI application engineering</b>, <b>the modern data layer</b> (closes your gap), and <b>staff-level architecture</b> (matches your seniority).</p>
+      <p style="color:var(--ink-soft);margin:0 0 12px">The three big bets, in priority order: <b>AI application engineering</b>, <b>the modern data layer</b> (closes your gap), and <b>staff-level architecture</b> (matches your seniority).</p>
     </div>
   </section>
 
-  <!-- SECTION 1 -->
   <div class="sec-head"><span class="sec-num">1</span><h2>AI Application Engineering</h2></div>
-  <p class="sec-sub">The highest-leverage area — it sits directly on top of your existing TypeScript/JS skills.</p>
+  <p class="sec-sub">The single highest-leverage area, because it sits directly on top of your existing TypeScript/JS skills.</p>
 
   <article class="topic">
     <h3><span class="id">1.1</span>LLM fundamentals &amp; API orchestration</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Calling LLM APIs well — messages, system prompts, streaming, structured/JSON output, temperature and token control.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>The new "REST client" skill. It's pure API orchestration — exactly your strength — and every other AI skill builds on it.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>This is the new "REST client" skill. It's pure API orchestration — exactly your strength — and every other AI skill builds on it.</p></div>
       <div class="row"><span class="tag how">How</span><p>Build a small chat backend in Node/TS that streams tokens to a React UI. Force yourself to use structured output (JSON schema) and handle streaming, retries, and errors cleanly.</p></div>
     </div>
   </article>
@@ -192,7 +166,7 @@
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Feeding an LLM relevant context retrieved from your own data (docs, DB rows) so answers are grounded and current.</p></div>
       <div class="row"><span class="tag why">Why</span><p>The most common production AI pattern by far. Almost every "AI feature" request in a company is really a RAG problem.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Chunk documents → embed → store in a vector DB → retrieve top-k by similarity → inject into the prompt. Build one end-to-end (this is also your database project — see 2.4).</p></div>
+      <div class="row"><span class="tag how">How</span><p>Chunk documents → embed them → store in a vector DB → retrieve top-k by similarity → inject into the prompt. Build one end-to-end (this is also your database project — see §2.4).</p></div>
     </div>
   </article>
 
@@ -200,8 +174,8 @@
     <h3><span class="id">1.3</span>Agents &amp; tool calling</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Letting the LLM decide to call your functions/APIs ("tools"), loop over results, and take multi-step actions.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>Where AI moves from "answers questions" to "does work." It's the frontier of demand for 2027–2028.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Define 2–3 tools (search, DB lookup, send email) and wire a tool-calling loop. Learn to bound it: max steps, guardrails, human-in-the-loop confirmation for risky actions.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>This is where AI moves from "answers questions" to "does work." It's the frontier of demand for 2027–2028.</p></div>
+      <div class="row"><span class="tag how">How</span><p>Define 2–3 tools (e.g. search, DB lookup, send email) and wire a tool-calling loop. Learn to bound it: max steps, guardrails, human-in-the-loop confirmation for risky actions.</p></div>
     </div>
   </article>
 
@@ -209,7 +183,7 @@
     <h3><span class="id">1.4</span>Evals &amp; reliability</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Measuring whether your AI feature is actually <em>good</em> — regression tests for prompts, scoring output quality, catching degradation.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>The skill that separates a senior engineer from a demo-builder. Scarce, hard to fake, and exactly where your judgment beats a junior + AI.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>This is the skill that separates a senior engineer from a demo-builder. It's scarce, it's hard to fake, and it's exactly where your judgment is worth more than a junior + AI.</p></div>
       <div class="row"><span class="tag how">How</span><p>Build a small eval set (inputs + expected qualities), score outputs (exact-match, LLM-as-judge, or heuristics), and run it in CI so prompt changes can't silently regress.</p></div>
     </div>
   </article>
@@ -218,21 +192,20 @@
     <h3><span class="id">1.5</span>Cost &amp; latency engineering</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Making AI features fast and cheap — caching, model routing (small model for easy tasks, big for hard), token budgets, streaming for perceived speed.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>Very "senior engineer" flavored. At scale these decisions are the difference between a feature that ships and one too expensive to run.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>Very "senior engineer" flavored. At scale these decisions are the difference between a feature that ships and one that's too expensive to run.</p></div>
       <div class="row"><span class="tag how">How</span><p>Add prompt caching and a cheap-vs-capable model router to your RAG app. Measure cost-per-request and p95 latency before and after.</p></div>
     </div>
   </article>
 
-  <!-- SECTION 2 -->
   <div class="sec-head"><span class="sec-num">2</span><h2>The Modern Data Layer</h2></div>
-  <p class="sec-sub">Closes your gap — and it now overlaps heavily with AI, so it feeds Section 1.</p>
+  <p class="sec-sub">Don't learn databases as a chore. Learn the modern data layer — it now overlaps heavily with AI, so this both fixes your weakness and feeds §1.</p>
 
   <article class="topic">
     <h3><span class="id">2.1</span>Postgres, deeply</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Real fluency in one relational database — SQL beyond CRUD, transactions, constraints, connection pooling.</p></div>
       <div class="row"><span class="tag why">Why</span><p>Postgres is the default answer for most apps in 2026+. It's your literal resume gap, and it's very fillable.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Take a side project and own its DB layer by hand — no ORM hiding things. Write joins, use transactions, read the query plans.</p></div>
+      <div class="row"><span class="tag how">How</span><p>Take an existing side project and own its DB layer by hand for once — no ORM hiding things. Write joins, use transactions, read the query plans.</p></div>
     </div>
   </article>
 
@@ -240,7 +213,7 @@
     <h3><span class="id">2.2</span>Data modeling</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Designing schemas — normalization vs. denormalization, relationships, when to use JSONB, migrations.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>Bad data models cause the expensive problems that are hard to undo later. This is the real engineering judgment in "database-heavy."</p></div>
+      <div class="row"><span class="tag why">Why</span><p>Bad data models cause the expensive problems that are hard to undo later. This is the part of "database-heavy" that is real engineering judgment.</p></div>
       <div class="row"><span class="tag how">How</span><p>Model a non-trivial domain (e.g. multi-tenant SaaS) from scratch. Practice writing forward and backward migrations safely.</p></div>
     </div>
   </article>
@@ -249,7 +222,7 @@
     <h3><span class="id">2.3</span>Query performance</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Indexes, <code>EXPLAIN ANALYZE</code>, avoiding N+1, understanding when queries get slow and why.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>"Works with 100 rows" vs. "works with 10M rows" is a senior distinction interviewers probe for.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>"Works on my machine with 100 rows" vs. "works with 10M rows" is a senior distinction interviewers probe for.</p></div>
       <div class="row"><span class="tag how">How</span><p>Seed a table with millions of rows, write a slow query, then make it fast with the right index. Read the plan before and after.</p></div>
     </div>
   </article>
@@ -257,22 +230,21 @@
   <article class="topic">
     <h3><span class="id">2.4</span>Vector databases &amp; embeddings</h3>
     <div class="wwh">
-      <div class="row"><span class="tag what">What</span><p>Storing embeddings and doing similarity search (<code>pgvector</code>, or a dedicated store) — the retrieval half of RAG.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>Exactly where "databases" and "AI" merge. Learning it closes your DB gap <em>and</em> powers 1.2. Two birds, one project.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Use <code>pgvector</code> inside your Postgres so you learn one database, not two. Build the retrieval pipeline for your RAG app on top of it.</p></div>
+      <div class="row"><span class="tag what">What</span><p>Storing embeddings and doing similarity search (pgvector, or a dedicated store) — the retrieval half of RAG.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>This is exactly where "databases" and "AI" merge. Learning it closes your DB gap <em>and</em> powers §1.2. Two birds, one project.</p></div>
+      <div class="row"><span class="tag how">How</span><p>Use <code>pgvector</code> in your Postgres so you learn one database, not two. Build the retrieval pipeline for your RAG app on top of it.</p></div>
     </div>
   </article>
 
-  <!-- SECTION 3 -->
   <div class="sec-head"><span class="sec-num">3</span><h2>Staff-Level Architecture</h2></div>
-  <p class="sec-sub">Matches your seniority — the market wants more than a strong IC coder at 10 years.</p>
+  <p class="sec-sub">At 10 years, the market wants more than a strong IC coder.</p>
 
   <article class="topic">
     <h3><span class="id">3.1</span>System design at scale</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Designing whole systems — caching layers, queues, load balancing, data flow, failure modes, tradeoffs.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>AI makes coding cheaper, which makes <em>judgment about what to build and how</em> more valuable, not less. This is the senior/staff interview.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Design 8–10 real systems on paper (rate limiter, notification service, feed…). Focus on articulating tradeoffs out loud, not memorizing diagrams.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>AI makes individual coding cheaper, which makes <em>judgment about what to build and how</em> more valuable, not less. This is the senior/staff interview.</p></div>
+      <div class="row"><span class="tag how">How</span><p>Practice designing 8–10 real systems on paper (rate limiter, notification service, feed, etc.). Focus on articulating tradeoffs out loud, not memorizing diagrams.</p></div>
     </div>
   </article>
 
@@ -281,7 +253,7 @@
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Consistency vs. availability, idempotency, retries, eventual consistency, message queues, background jobs.</p></div>
       <div class="row"><span class="tag why">Why</span><p>Every non-trivial product hits these. Knowing the failure modes before they bite is what "senior" buys the company.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Add a queue + background worker to your RAG app (async document ingestion). Make it idempotent and handle retries.</p></div>
+      <div class="row"><span class="tag how">How</span><p>Add a queue + background worker to your RAG app (e.g. async document ingestion). Make it idempotent and handle retries.</p></div>
     </div>
   </article>
 
@@ -289,20 +261,19 @@
     <h3><span class="id">3.3</span>Technical leadership</h3>
     <div class="wwh">
       <div class="row"><span class="tag what">What</span><p>Mentoring, setting technical direction, turning vague product asks into shippable plans, writing design docs.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>The clearest path to staff/principal and higher comp — and the least automatable skill on this list.</p></div>
-      <div class="row"><span class="tag how">How</span><p>Lead one initiative at work end-to-end. Write the design doc, get buy-in, mentor someone through part of it.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>The clearest path to staff/principal and higher comp. It's also the least automatable skill on this list.</p></div>
+      <div class="row"><span class="tag how">How</span><p>Volunteer to lead one initiative at work end-to-end. Write the design doc, get buy-in, mentor someone through part of it.</p></div>
     </div>
   </article>
 
-  <!-- SECTION 4 -->
   <div class="sec-head"><span class="sec-num">4</span><h2>Supporting Skills</h2></div>
-  <p class="sec-sub">Don't over-invest, but don't ignore.</p>
+  <p class="sec-sub"></p>
 
   <article class="topic">
     <h3><span class="id">4.1</span>TypeScript, deeply</h3>
     <div class="wwh">
-      <div class="row"><span class="tag what">What</span><p>Advanced types — generics, conditional/mapped types, inference, strict-mode discipline.</p></div>
-      <div class="row"><span class="tag why">Why</span><p>TS is the default for serious JS work, and AI-app SDKs are TS-first. Deep TS makes you faster and safer.</p></div>
+      <div class="row"><span class="tag what">What</span><p>Advanced types — generics, conditional/mapped types, inference, strict mode discipline.</p></div>
+      <div class="row"><span class="tag why">Why</span><p>TS is now the default for serious JS work, and AI-app SDKs are TS-first. Deep TS makes you faster and safer.</p></div>
       <div class="row"><span class="tag how">How</span><p>Turn on strict mode everywhere and fix the errors properly. Type a genuinely generic utility (e.g. a typed API client) by hand.</p></div>
     </div>
   </article>
@@ -325,35 +296,28 @@
     </div>
   </article>
 
-  <!-- PLAN -->
   <div class="sec-head"><span class="sec-num">★</span><h2>A concrete ~12-month path</h2></div>
   <p class="sec-sub">One RAG project threads through almost everything — you build one thing and learn against it.</p>
   <div class="frame">
     <ul class="timeline">
-      <li class="tl">
-        <span class="when">Now → 3 months</span>
-        <p>Build one real RAG app end-to-end — Postgres + pgvector, a Node/TS backend, a streaming React UI. Hits <b>1.1, 1.2, 2.1–2.4</b> at once.</p>
-      </li>
-      <li class="tl">
-        <span class="when">3 → 6 months</span>
-        <p>Add evals, observability, and cost/latency work (<b>1.4, 1.5</b>). Learn to measure and improve output quality — this is the differentiator.</p>
-      </li>
-      <li class="tl">
-        <span class="when">6 → 12 months</span>
-        <p>Add async ingestion with a queue (<b>3.2</b>), deploy it properly (<b>4.2</b>), then go deep on system design (<b>3.1</b>) and lead an initiative in the open (<b>3.3</b>).</p>
-      </li>
+      <li class="tl"><span class="when">Now → 3 months</span><p>Build one real RAG app end-to-end — Postgres + pgvector, a Node/TS backend, a streaming React UI. Hits §1.1, §1.2, §2.1–2.4 at once.</p></li>
+      <li class="tl"><span class="when">3 → 6 months</span><p>Add evals, observability, and cost/latency work (§1.4, §1.5). Learn to measure and improve output quality — this is the differentiator.</p></li>
+      <li class="tl"><span class="when">6 → 12 months</span><p>Add async ingestion with a queue (§3.2), deploy it properly (§4.2), then go deep on system design (§3.1) and lead an initiative in the open (§3.3).</p></li>
     </ul>
   </div>
 
   <div class="summary">
     <span class="k">One-sentence summary</span>
-    <p>Become the senior engineer who ships <b>reliable AI features on a solid data layer</b> — it turns your two "gaps" (AI, databases) into a single moat that your existing Node/React experience makes you unusually well-positioned to build.</p>
+    <p>Become the senior engineer who ships reliable AI features on a solid data layer — it turns your two "gaps" (AI, databases) into a single moat that your existing Node/React experience makes you unusually well-positioned to build.</p>
   </div>
 
 </main>
 
 <footer>
-  <div class="wrap">Skills Roadmap to 2028 · built for a Node.js + React engineer · hosted on GitHub Pages</div>
+  <div class="wrap">
+    Skills Roadmap to 2028 · built for a Node.js + React engineer · hosted on GitHub Pages
+    <div class="upd">Last updated: July 14, 2026</div>
+  </div>
 </footer>
 
 </body>
